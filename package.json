@@ -24,7 +24,8 @@
     "express-session": "^1.17.1",
     "laravel-mix": "^5.0.7",
     "mongoose": "^5.10.11",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "noty": "^3.2.0-beta"
   },
   "devDependencies": {
     "resolve-url-loader": "^3.1.0",
