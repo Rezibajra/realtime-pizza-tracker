@@ -17,7 +17,7 @@ function init(passport){
             }
             return done(null,false,{message:'Wrong username or password'})
         }).catch(err=>{
-            return done(null,false,{message:'Something wennt wrong'})
+            return done(null,false,{message:'Something went wrong'})
         })
 
     }))
