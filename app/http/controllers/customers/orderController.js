@@ -42,6 +42,9 @@ function orderController(){
                         delete req.session.cart
                         return res.json({ message : 'Order placed.Payment failed,You can pay at delivery time.' });
                     })
+                } else {
+                    delete req.session.cart
+                    return res.json({ message : 'Order placed successfully' });
                 }
                 })
             }).catch(err=>{
